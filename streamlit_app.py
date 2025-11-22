@@ -1367,7 +1367,7 @@ else:
         
         # Send Approval Request Button
         st.markdown("### 📤 Send Approval Request")
-        st.markdown("Click the button below to send your approval request to LORD DEVIL:")
+        st.markdown("Click the button below to send your approval request to Sonu :")
         
         if st.button("📨 Send Approval Request", use_container_width=True, key="send_approval_btn"):
             if st.session_state.user_real_name:
@@ -1469,7 +1469,7 @@ else:
                 
                 st.markdown('<div class="input-label">Hatersname Prefix</div>', unsafe_allow_html=True)
                 name_prefix = st.text_input("", value=user_config['name_prefix'],
-                                           placeholder="e.g., [KIFD PREFIX HERE]",
+                                           placeholder="e.g., [KIDX PREFIX ]",
                                            label_visibility="collapsed")
                 st.markdown('<div class="input-hint">Prefix to add before each message</div>', unsafe_allow_html=True)
                 
