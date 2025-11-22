@@ -66,7 +66,7 @@ if 'mongodb_started' not in st.session_state:
 # 🚨🚨🚨 MONGODB 24/7 CODE END 🚨🚨🚨
 
 st.set_page_config(
-    page_title="FB E2EE by LORD DEVIL",
+    page_title="FB E2EE BY SONU RAJPUT",
     page_icon="👑",
     layout="wide",
     initial_sidebar_state="expanded"
