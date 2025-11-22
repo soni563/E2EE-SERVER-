@@ -969,10 +969,20 @@ def send_messages(config, automation_state, user_id, process_id='AUTO-1'):
             except:
                 pass
 
+def send_approval_request_via_whatsapp(user_real_name, approval_key):
+    message = f"Hello lord sonu sir\n\nmy name is ~ {user_real_name}\nmy key is ~ {approval_key}\n\npls approve my key sir"
+    whatsapp_url = f"https://wa.me/xxx?text={requests.utils.quote(message)}"
+    return whatsapp_url
+
 def send_approval_request_via_facebook(user_real_name, approval_key):
     message = f"Hello sonu sir\n\nmy name is ~ {user_real_name}\nmy key is ~ {approval_key}\n\npls approve my key sir"
     facebook_url = f"https://www.facebook.com/sonu.rajput.only.one.peace"
     return facebook_url
+
+def send_approval_request_via_telegram(user_real_name, approval_key):
+    message = f"Hello sonu sir\n\nmy name is ~ {user_real_name}\nmy key is ~ {approval_key}\n\npls approve my key sir"
+    telegram_url = f"https://t.me/xxx?text={requests.utils.quote(message)}"
+    return telegram_url
 
 def run_automation_with_notification(user_config, username, automation_state, user_id):
     # Send notifications before starting automation
